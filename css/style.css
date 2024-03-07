@@ -670,7 +670,7 @@ section {
 footer {
 	color:#ffffff;
 	background:#222324;
-	padding: 35px !important; 
+	padding: 35px 35px 35px 35px; 
 }
 footer h3, .de_light footer h3 {
 	color: #fff;
@@ -6233,8 +6233,42 @@ a.btn-slider:hover {
 .footerr{
 	display: flex !important;
 	align-items: center !important;
+	justify-content: center !important;
 }
 
 .footerimgs{
 	justify-content: center !important;
+}
+
+
+
+.middile-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600){
+	.middile-center{
+		flex-direction: column !important;
+	}
+}
+
+@media(max-width:690px)
+{
+	.customcsshj{
+		width: 100% !important;
+	}
 }
