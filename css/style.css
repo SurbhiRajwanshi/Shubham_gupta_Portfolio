@@ -6260,7 +6260,7 @@ a.btn-slider:hover {
 
 
 
-@media(max-width:600){
+@media(max-width:600px){
 	.middile-center{
 		flex-direction: column !important;
 	}
@@ -6271,4 +6271,26 @@ a.btn-slider:hover {
 	.customcsshj{
 		width: 100% !important;
 	}
+}
+
+@media(max-width:440px){
+	
+	section{
+		padding-top: 60px !important;
+		padding-bottom: 0px !important;
+	}
+	.de_count{
+		padding: 0px !important;
+	}
+	.inner-padding{
+		padding: 0px !important;
+	}
+	.btn-marg{
+		margin-bottom: 30px;
+		
+	}
+	.container .col-md-8{
+		margin-bottom: 0px !important;
+	}
+	
 }
