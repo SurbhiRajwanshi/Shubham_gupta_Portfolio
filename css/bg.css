@@ -85,3 +85,16 @@ background-size: cover;
 	background-attachment:scroll !important;
 	}
 }
+
+
+
+@media(max-width:550px){
+	#section-hero-1{ background:url(../images/background/bg1big.png) top fixed;background-position: center;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+	}
+	.bg-centre-img{
+		height: auto !important;
+	}
+	
+}
